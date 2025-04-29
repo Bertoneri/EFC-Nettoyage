@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titre affiché dans l'onglet -->
+    <title>Accueil - EFC Nettoyage | Nettoyage haute pression Bouches-du-Rhône</title>
+  
+    <!-- Description visible sur Google -->
+    <meta name="description" content="EFC Nettoyage, spécialiste du nettoyage haute pression thermique dans les Bouches-du-Rhône : terrasses, façades, escaliers, piscines, murets et plus encore. Devis gratuit.">
+  
+    <!-- Mots-clés pour référencement (moins utilisés mais encore utiles) -->
+    <meta name="keywords" content="nettoyage, haute pression, Bouches-du-Rhône, Miramas, Grans, façade, terrasse, piscine, muret, devis, EFC Nettoyage">
+  
+    <!-- Auteur -->
+    <meta name="author" content="EFC Nettoyage">
+  
+    <!-- Préchargement des polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="style.css">
+  
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-gouttes.png">
+
+  
+    <!-- Réseaux sociaux / Open Graph -->
+    <meta property="og:title" content="EFC Nettoyage | Nettoyage haute pression professionnel">
+    <meta property="og:description" content="Découvrez nos services de nettoyage thermique pour toutes vos surfaces extérieures. Efficacité et propreté garanties.">
+    <meta property="og:image" content="https://ton-site.github.io/efc-nettoyage/logo-gouttes.png"> <!-- à modifier après mise en ligne -->
+    <meta property="og:url" content="https://ton-utilisateur.github.io/efc-nettoyage/">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  
+<body>
+
+  <header>
+    <h1>Demande de Devis</h1>
+    <p>Recevez un devis personnalisé en quelques clics</p>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="avantapres.html">Avant-Aprés</a>
+      <a href="contact.html">Contactez-nous</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section" style="max-width: 600px; margin: 40px auto; padding: 20px;">
+      <form action="https://formsubmit.co/efcnettoyage@gmail.com" method="POST">
+        <!-- Redirection vers la page de confirmation -->
+        <input type="hidden" name="_next" value="confirmation.html">
+        <!-- Désactivation du CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="surface">Surface à nettoyer (en m²) :</label>
+        <input type="number" id="surface" name="surface" required>
+
+        <label for="message">Détail du service souhaité :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Envoyer ma demande</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EFC Nettoyage - Bouches-du-Rhône</p>
+  </footer>
+
+</body>
+</html>
