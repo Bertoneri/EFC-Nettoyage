@@ -63,8 +63,8 @@ https://Bertoneri.github.io/efc-nettoyage/
 
 ## 📞 Contact
 
-Développé par [Ton prénom ou pseudo]  
-📧 Email : [Ton email professionnel]
+Développé par [Bertoneri]  
+📧 Email : [bertonerialexis@gmail.com]
 
 ---
 
